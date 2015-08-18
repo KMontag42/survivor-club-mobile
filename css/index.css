@@ -1,0 +1,28 @@
+.navbar-brand {
+    padding: 4px 15px 20.5px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar .navbar-nav li {
+    display: inline-block !important;
+}
+
+.navbar .navbar-nav li a{
+    padding-top: 20px;
+}
+
+.navbar .navbar-nav li.center a{
+    padding-top: 8px;
+}
+
+.navbar-center {
+    text-align: center;
+}
