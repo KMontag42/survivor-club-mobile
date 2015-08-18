@@ -2,6 +2,11 @@ $(document).ready(function() {
 
     var handle_click = function(target) {
         console.log(target);
+        draw_page(target);
+    },
+    draw_page = function(page) {
+        $('.page.active').addClass('hidden').removeClass('active');
+        $(page).removeClass('hidden').addClass('active');
     };
 
     $('.navbar li').bind('click', function(e) {
