@@ -28,7 +28,6 @@ $(document).ready(function() {
     if (window.location.hash != "") {
         var top_level_pages = ['#rules', '#episodes', '#game_day', '#users', '#castaways'];
         if (top_level_pages.indexOf(window.location.hash) > -1) {
-            console.log(window.location.hash);
             $('a[href="'+window.location.hash+'"]').parent().addClass('active');
             draw_page(window.location.hash);
         }
@@ -41,8 +40,8 @@ $(document).ready(function() {
         handle_click(target)
     });
 
-    //if (!window.navigator.standalone) {
-    //    $("#mobile").addClass('hidden');
-    //    $("#desktop").removeClass('hidden');
-    //}
+    if (!window.navigator.standalone) {
+        $("#mobile").addClass('hidden');
+        $("#desktop").removeClass('hidden');
+    }
 });
