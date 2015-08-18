@@ -34,4 +34,9 @@ $(document).ready(function() {
 
         handle_click(target)
     });
+
+    if (!window.navigator.standalone) {
+        $("#mobile").addClass('hidden');
+        $("#desktop").removeClass('hidden');
+    }
 });

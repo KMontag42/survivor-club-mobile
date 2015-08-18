@@ -22,44 +22,49 @@
   <script src="js/rules.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container navbar-center">
-    <ul class="nav navbar-nav">
-      <li><a href="#rules">
-        <i class="fa fa-2x fa-legal mobile-nav-link"></i>
-      </a></li>
-      <li><a href="#episodes">
-        <i class="fa fa-2x fa-television mobile-nav-link"></i>
-      </a></li>
-      <li class="center"><a href="#game_day">
-        <i class="fa fa-3x fa-gamepad"></i>
-      </a></li>
-      <li><a href="#castaways">
-        <i class="fa fa-2x fa-users mobile-nav-link"></i>
-      </a></li>
-      <li><a href="#users">
-        <i class="fa fa-2x fa-trophy mobile-nav-link"></i>
-      </a></li>
-    </ul>
-  </div>
-</nav>
-
-<div id="content" class="container-fluid">
-  <div id="homepage" class="page row active">
-    <div class="col-xs-12" style="margin-top: 5%;">
-      <img src="//fillmurray.com/420/420" alt="" class="img-responsive center-block"/>
+<div id="desktop" class="hidden">
+    <h1 class="text-center">PRESS THE SHARE BUTTON</h1>
+    <h2 class="text-center">THEN PRESS ADD TO HOME SCREEN AND SAVE</h2>
+</div>
+<div id="mobile">
+  <nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container navbar-center">
+      <ul class="nav navbar-nav">
+        <li><a href="#rules">
+          <i class="fa fa-2x fa-legal mobile-nav-link"></i>
+        </a></li>
+        <li><a href="#episodes">
+          <i class="fa fa-2x fa-television mobile-nav-link"></i>
+        </a></li>
+        <li class="center"><a href="#game_day">
+          <i class="fa fa-3x fa-gamepad"></i>
+        </a></li>
+        <li><a href="#castaways">
+          <i class="fa fa-2x fa-users mobile-nav-link"></i>
+        </a></li>
+        <li><a href="#users">
+          <i class="fa fa-2x fa-trophy mobile-nav-link"></i>
+        </a></li>
+      </ul>
     </div>
-    <div class="clearfix"></div>
-    <h1 class="text-center">Welcome to Skillz</h1>
-  </div>
+  </nav>
 
-  <div id="rules" class="page row hidden">
-    <div class="col-xs-12 text-center">
-      <h4>RustyVenture</h4>
+  <div id="content" class="container-fluid">
+    <div id="homepage" class="page row active">
+      <div class="col-xs-12" style="margin-top: 5%;">
+        <img src="//fillmurray.com/420/420" alt="" class="img-responsive center-block"/>
+      </div>
+      <div class="clearfix"></div>
+      <h1 class="text-center">Welcome to Skillz</h1>
     </div>
-    <br/>
-    <div class="col-xs-12">
-      <ul class="nav nav-tabs nav-stacked">
+
+    <div id="rules" class="page row hidden">
+      <div class="col-xs-12 text-center">
+        <h4>RustyVenture</h4>
+      </div>
+      <br/>
+      <div class="col-xs-12">
+        <ul class="nav nav-tabs nav-stacked">
           <li role="presentation">
             <a href="#preamble">Preamble <i class="pull-right fa fa-2x fa-arrow-circle-right"></i></a>
           </li>
@@ -91,87 +96,88 @@
             <a href="#sr8">SR8. Specific Non-Canon Events <i class="pull-right fa fa-2x fa-arrow-circle-right"></i></a>
           </li>
         </ul>
-    </div>
-    <div class="clearfix"></div>
-  </div>
-
-  <div id="episodes" class="page row hidden">
-    <div class="col-xs-12">
-      <img src="//stevensegallery.com/300/420" alt="" class="img-responsive"/>
-    </div>
-  </div>
-
-  <div id="game_day" class="page row hidden">
-    <div class="col-xs-12">
-      <div class="row">
-        <div class="col-xs-8 col-xs-offset-2">
-          <ul class="nav nav-tabs" role="tablist">
-            <li><a href="#">Current</a></li>
-            <li><a href="#">Archive</a></li>
-          </ul>
-        </div>
-        <div class="clearfix"></div>
       </div>
-      <h1 class="text-center">Survivor: Cambodia - 3101 - Name of the
-        Episode</h1>
-      <div class="row">
-        <div class="col-xs-12">
-          <table class="table table-condensed table-bordered table-striped">
-            <thead>
-            <tr>
-              <th colspan="2" class="text-center">Kyle</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-              <td class="text-center">Bayon</td>
-              <td class="text-center">Ta Keo</td>
-            </tr>
-            <tr>
-              <td class="text-center">Bayon</td>
-              <td class="text-center">Ta Keo</td>
-            </tr>
-            <tr>
-              <td class="text-center">Bayon</td>
-              <td class="text-center">Ta Keo</td>
-            </tr>
-            <tr>
-              <td class="text-center">Bayon</td>
-              <td class="text-center">Ta Keo</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
+      <div class="clearfix"></div>
+    </div>
+
+    <div id="episodes" class="page row hidden">
+      <div class="col-xs-12">
+        <img src="//stevensegallery.com/300/420" alt="" class="img-responsive"/>
       </div>
-      <div class="row">
-        <div class="col-xs-12 text-center" style="margin-bottom: 2rem;">
-          <div class="col-xs-12 chat text-left" style="margin-bottom: .5rem;">
+    </div>
+
+    <div id="game_day" class="page row hidden">
+      <div class="col-xs-12">
+        <div class="row">
+          <div class="col-xs-8 col-xs-offset-2">
+            <ul class="nav nav-tabs" role="tablist">
+              <li><a href="#">Current</a></li>
+              <li><a href="#">Archive</a></li>
+            </ul>
           </div>
-          <form>
-            <input type="text" id="chat-line" class="form-control"
-                   placeholder="Message">
-            <button
-                class="btn btn-primary send-chat form-control visible-xs-block visible-sm-block">
-              Send
-            </button>
-          </form>
-          <div class="hidden id" data-id=""></div>
-
+          <div class="clearfix"></div>
         </div>
+        <h1 class="text-center">Survivor: Cambodia - 3101 - Name of the
+          Episode</h1>
+        <div class="row">
+          <div class="col-xs-12">
+            <table class="table table-condensed table-bordered table-striped">
+              <thead>
+              <tr>
+                <th colspan="2" class="text-center">Kyle</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td class="text-center">Bayon</td>
+                <td class="text-center">Ta Keo</td>
+              </tr>
+              <tr>
+                <td class="text-center">Bayon</td>
+                <td class="text-center">Ta Keo</td>
+              </tr>
+              <tr>
+                <td class="text-center">Bayon</td>
+                <td class="text-center">Ta Keo</td>
+              </tr>
+              <tr>
+                <td class="text-center">Bayon</td>
+                <td class="text-center">Ta Keo</td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 text-center" style="margin-bottom: 2rem;">
+            <div class="col-xs-12 chat text-left" style="margin-bottom: .5rem;">
+            </div>
+            <form>
+              <input type="text" id="chat-line" class="form-control"
+                     placeholder="Message">
+              <button
+                  class="btn btn-primary send-chat form-control visible-xs-block visible-sm-block">
+                Send
+              </button>
+            </form>
+            <div class="hidden id" data-id=""></div>
+
+          </div>
+        </div>
+
       </div>
-
     </div>
-  </div>
 
-  <div id="castaways" class="page row hidden">
-    <div class="col-xs-12">
-      <img src="//placecage.com/300/420" alt="" class="img-responsive"/>
+    <div id="castaways" class="page row hidden">
+      <div class="col-xs-12">
+        <img src="//placecage.com/300/420" alt="" class="img-responsive"/>
+      </div>
     </div>
-  </div>
 
-  <div id="users" class="page row hidden">
-    <div class="col-xs-12">
-      <img src="//fillmurray.com/300/420" alt="" class="img-responsive"/>
+    <div id="users" class="page row hidden">
+      <div class="col-xs-12">
+        <img src="//fillmurray.com/300/420" alt="" class="img-responsive"/>
+      </div>
     </div>
   </div>
 </div>
