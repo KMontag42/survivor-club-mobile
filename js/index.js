@@ -33,6 +33,5 @@ $(document).ready(function() {
         var target = $(e.target);
 
         handle_click(target)
-
     });
 });
