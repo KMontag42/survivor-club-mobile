@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+    FastClick.attach(document.body);
+
     var handle_click = function(target) {
         var active = $('.navbar .active');
 
